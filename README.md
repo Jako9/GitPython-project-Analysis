@@ -6,7 +6,7 @@ This tool is only for fun!
 # Args
 Currently supported args: 
 
-**mandatory**:
+**required**:
 
 --path "PATH_TO_LOCAL_REPOSITORY"
 
