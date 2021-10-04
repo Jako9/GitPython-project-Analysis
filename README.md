@@ -1,5 +1,6 @@
 # Prints information on who contributed what to a repository
-Please enjoy knowing that only accounting for _contribution per line_ is not correct and oftentimes not fair
+Please enjoy knowing that only accounting for _contribution per line_ is not correct and oftentimes not fair.
+
 This tool is only for fun!
 
 # Args
