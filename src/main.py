@@ -5,7 +5,7 @@ import mimetypes
 
 def main():
     mimetypes.init()
-    path = "../../rusty-jab-code"
+    path = "../../"
     extension = ""
     arg_author = ""
     if(len(sys.argv) > 1):
@@ -14,7 +14,7 @@ def main():
             return
         for i in range(1,len(sys.argv),2):
             if(sys.argv[i] == "--path"):
-                path = sys.argv[i+1]
+                path += sys.argv[i+1]
             elif(sys.argv[i] == "--extension"):
                 extension = sys.argv[i+1]
             elif(sys.argv[i] == "--author"):
