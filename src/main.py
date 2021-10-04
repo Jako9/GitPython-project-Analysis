@@ -5,7 +5,7 @@ import mimetypes
 
 def main():
     mimetypes.init()
-    path = "../../"
+    path = "../../../"
     extension = ""
     arg_author = ""
     if(len(sys.argv) > 1):
@@ -22,6 +22,9 @@ def main():
             else:
                 print("Invalid Argument: " + sys.argv[i])
                 return;
+    else:
+        print("The --path tag is mandatory. Please refer to: \"https://github.com/Jako9/GitPython-project-Analysis\" for further information")
+        return
 
     repo = Repo(path)
     files = repo.git.ls_files().split("\n")
