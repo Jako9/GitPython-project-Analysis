@@ -9,14 +9,17 @@ Currently supported args:
 **mandatory**:
 
 --path "PATH_TO_LOCAL_REPOSITORY"
-the script will analyse this repository
+
+_the script will analyse this repository_
 
 **optional**:
 
 --extension "EXTENSION"
-the script will only consider files with given extension;
-default: All text-based file-formats
+
+_the script will only consider files with given extension;
+default: All text-based file-formats_
 
 --author "AUTHOR"
-the script will list all files to which the given author contributed
-default: All authors and their contribution will be listed
+
+_the script will list all files to which the given author contributed
+default: All authors and their contribution will be listed_
